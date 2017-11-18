@@ -37,15 +37,15 @@ nombre = usuario['name']
 # el id de la publicación, y los comentarios, que a su vez tienen mas "ramificaciones"
 
 prueba = graph.get_object(id=user_id, fields='posts{id,comments, message}')
-print('Encontrados {} posts'.format(len(prueba['posts']['data'])))
+#print('Encontrados {} posts'.format(len(prueba['posts']['data'])))
 #print(prueba['posts']['data'][0]['comments']['data'])
 #print(prueba['posts']['data'][0])
 
 while True:
     try:
-        print("vueltas while")
-        for prueba in prueba['post']['data']:
-            print("vueltas for prueba")
+        print("vuelta del while")
+        for prueba['posts']['data'] in prueba:#['post']:#['data']:
+            print("vuelta for prueba")
             with open('data.json', 'a') as outfile: # 'w' sobreescribir, 'a' escribir al final
                 json.dump(prueba, outfile, indent=4)
         # Attempt to make a request to the next page of data, if it exists.
