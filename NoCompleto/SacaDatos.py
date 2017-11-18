@@ -3,10 +3,11 @@ import facebook
 import json
 
 # Su Token, por alguna razon no me deja usar uno de una cuenta temporal de prueba :c
-access_token = 'EAACEdEose0cBAOQ41s9wHh8yZAlgIZC8dzGAjRvdIknpw4fZAzS3f0qMpZAXJ67ZBiQ6ZAAdOODtuYXQiZC5saFr1b1FRWA3pKZCUNBwCd6FaO5ZAwfLnf5DWGqj2ECSIGxpK1O9B6QpiwFZBKlc8xjwURZA9UnLzQRPmt8pGsZCjqpg0Xe4wJJCn6UeCAYpCk0BsZAMZD'
+access_token = 'EAACEdEose0cBANkkc4LInviv23s3TXofmmiTaZCV0UupN0jay9ueo9jq5KkWZAAmMKzSsYWJaHJHhvEOnN87Ypd8YPRj2ceFecceug9QRlPUdZAGBXDuZCZCC9lYNy1xJA6zPtW6OBvryhxD3aYPS7geKVjpZBDbzQZASxlvfs9RJlByzDIqpTmZBHfFipmeCtgZD'
 
 # Facebook user id de la pagina de piñera
 user_id = "553775568008058"
+#553775568008058
 
 # post id de una publicacion de la pagina de piñera
 post_id = "1698259343559669"
@@ -34,23 +35,33 @@ nombre = usuario['name']
 
 # Busca las publicaciones del usuario y entrega en un diccionario
 # el id de la publicación, y los comentarios, que a su vez tienen mas "ramificaciones"
-# como la fecha del comentario, el mensaje en si y la persona que comenta junto a su id
-# saca MUCHOS comentarios, falta ver como separarlos todos
-prueba = graph.get_object(id=user_id, fields='posts{id,comments}')
-print('Encontrados {} posts'.format(len(prueba['posts']['data'])))
-print(prueba['posts']['data'][0])
 
-with open('data.json', 'w') as outfile:
-    json.dump(prueba, outfile, indent=4)
+prueba = graph.get_object(id=user_id, fields='posts{id,comments, message}')
+print('Encontrados {} posts'.format(len(prueba['posts']['data'])))
+#print(prueba['posts']['data'][0]['comments']['data'])
+#print(prueba['posts']['data'][0])
+
+while True:
+    try:
+        print("vueltas while")
+        for prueba in prueba['post']['data']:
+            print("vueltas for prueba")
+            with open('data.json', 'a') as outfile: # 'w' sobreescribir, 'a' escribir al final
+                json.dump(prueba, outfile, indent=4)
+        # Attempt to make a request to the next page of data, if it exists.
+        prueba = requests.get(prueba['posts']['data']['paging']['next']).json()
+    except KeyError:
+        # When there are no more pages (['paging']['next']), break from the
+        # loop and end the script.
+        print("error")
+        break
+
+
+
+#with open('data.json', 'w') as outfile:
+#    json.dump(prueba, outfile, indent=4)
 
 #####################
-
-
-# Intento de llegar a alguna de las ramificaciones, ta malo :(
-# Alguien intente sacar usando for algun comentario unico
-# print(prueba['posts'])
-# for id in prueba['posts']:
-#    print(id)
 
 # Mostrar algo corto, funciona
 # print("Imprimiento la informacion de " +nombre+ ":")
