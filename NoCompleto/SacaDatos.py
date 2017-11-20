@@ -3,10 +3,10 @@ import facebook
 import json
 
 # Su Token, por alguna razon no me deja usar uno de una cuenta temporal de prueba :c
-access_token = 'EAACEdEose0cBANkkc4LInviv23s3TXofmmiTaZCV0UupN0jay9ueo9jq5KkWZAAmMKzSsYWJaHJHhvEOnN87Ypd8YPRj2ceFecceug9QRlPUdZAGBXDuZCZCC9lYNy1xJA6zPtW6OBvryhxD3aYPS7geKVjpZBDbzQZASxlvfs9RJlByzDIqpTmZBHfFipmeCtgZD'
+access_token = 'EAACEdEose0cBABJZChiIkZBA1sLqEfVJEQjIfdFMZARwuZATEkMQ61fTRuazk8j6qZCKhHFY4ZCZAeZBlvAuC3Siz6SfhZBWLot3uzQA3STMJMLUmrpfNF4yFuWMfRZBInJw04afLKhT1oBDzUZBZBwXGnZAZCq7QzEUPbcpbL35EZAmx1riKq2UnTzm1TtZCjpQhrZBWDjYZD'
 
-# Facebook user id de la pagina de piñera
-user_id = "553775568008058"
+# Facebook user id de la pagina de Guiller
+user_id = "1481491872064849"
 #553775568008058
 
 # post id de una publicacion de la pagina de piñera
@@ -36,12 +36,46 @@ nombre = usuario['name']
 # Busca las publicaciones del usuario y entrega en un diccionario
 # el id de la publicación, y los comentarios, que a su vez tienen mas "ramificaciones"
 
-prueba = graph.get_object(id=user_id, fields='posts{id,comments, message}')
+#FECHA
+# since=2017-07-02,until=2017-11-19
+
+prueba = graph.get_object(id=user_id, fields='posts{id,comments, message,since=2017-11-15,until=2017-11-19}')
 #print('Encontrados {} posts'.format(len(prueba['posts']['data'])))
+
 #print(prueba['posts']['data'][0]['comments']['data'])
 #print(prueba['posts']['data'][0])
 
+allData = []
+vWhile=0
+vFor=0
 while True:
+    try:
+        print("vuelta del while")
+        vWhile=vWhile+1
+        for dato in prueba['posts']:
+            allData.append(prueba)
+            print("vuelta del for")
+            vFor=vFor+1
+        if 'paging' in prueba and 'next' in prueba['paging']:
+            prueba = requests.get(prueba['paging']['next']).json()
+            print('Encontrados {} posts'.format(len(prueba['posts']['data'])))
+        else:
+            break
+    except KeyError:
+        print("ERROR")
+        break
+
+print("...vueltas del While: ")
+print(vWhile)
+print("...vueltas del For: ")
+print(vFor)
+#print(allData)
+
+with open('data.json', 'w') as outfile:
+    json.dump(allData, outfile, indent=4)
+
+
+''''###while True:
     try:
         print("vuelta del while")
         for prueba['posts']['data'] in prueba:#['post']:#['data']:
@@ -55,7 +89,7 @@ while True:
         # loop and end the script.
         print("error")
         break
-
+'''
 
 
 #with open('data.json', 'w') as outfile:
