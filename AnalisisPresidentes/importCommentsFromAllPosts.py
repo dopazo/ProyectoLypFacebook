@@ -25,7 +25,7 @@ import requests
 
 graph_api_version = 'v2.9'
 #cambiar el token cada hora
-access_token = 'EAACEdEose0cBAJcmKKh6FQvpgZBJ9h0wAzTI6KUmPeF9vOSZBfcG9rXdNJXWx0dst4ncy7RBd7VYK9PBRhx3IV8YnHUS4Xjex5pQ7XZAifJJgfxLGe43tvZBxyHiUw7AU7lrao3MwXFc9wmjSxHcBuIBExagofZBQdPnwe5S9Nu0pMnz0ZAuVAZACwXXT666esZD'
+access_token = 'EAACEdEose0cBABPoFCuODRz05tkrmzXecOSZCx994oKSZAmziUVVDFE4xm02OCTyBkdgZCEOhBmGIteEkRZBBDbkSZCJ8hKfs7sIBt4ur9nVAWejNHk9iGhsdojDNNocmY0CuTIMEtUVHhzjuu1tw8TUMy7QlVdZAZCpzuwXLnymbJbtMJAggMCMZAARM9G5ZAEwZD'
 
 # presidentes' Facebook user id
 user_id = '1481491872064849' #en este caso es de alejandro guiller

@@ -3,7 +3,7 @@ import facebook
 import json
 
 # Su Token, por alguna razon no me deja usar uno de una cuenta temporal de prueba :c
-access_token = 'EAACEdEose0cBABJZChiIkZBA1sLqEfVJEQjIfdFMZARwuZATEkMQ61fTRuazk8j6qZCKhHFY4ZCZAeZBlvAuC3Siz6SfhZBWLot3uzQA3STMJMLUmrpfNF4yFuWMfRZBInJw04afLKhT1oBDzUZBZBwXGnZAZCq7QzEUPbcpbL35EZAmx1riKq2UnTzm1TtZCjpQhrZBWDjYZD'
+access_token = 'EAACEdEose0cBABPoFCuODRz05tkrmzXecOSZCx994oKSZAmziUVVDFE4xm02OCTyBkdgZCEOhBmGIteEkRZBBDbkSZCJ8hKfs7sIBt4ur9nVAWejNHk9iGhsdojDNNocmY0CuTIMEtUVHhzjuu1tw8TUMy7QlVdZAZCpzuwXLnymbJbtMJAggMCMZAARM9G5ZAEwZD'
 
 # Facebook user id de la pagina de Guiller
 user_id = "1481491872064849"
@@ -36,7 +36,7 @@ nombre = usuario['name']
 # Busca las publicaciones del usuario y entrega en un diccionario
 # el id de la publicación, y los comentarios, que a su vez tienen mas "ramificaciones"
 
-#FECHA
+#FECHA DESDE LAS PRIMARIAS HASTA EL DIA DE LAS VOTACIONES
 # since=2017-07-02,until=2017-11-19
 
 prueba = graph.get_object(id=user_id, fields='posts{id,comments, message,since=2017-11-15,until=2017-11-19}')

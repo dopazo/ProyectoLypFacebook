@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a36313-01ad-4778-98d3-fbf62d18d6e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PresiPostIds.txt" afterPath="$PROJECT_DIR$/PresiPostIds.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/importCommentsFromAllPosts.py" afterPath="$PROJECT_DIR$/importCommentsFromAllPosts.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/importPostIDs.py" afterPath="$PROJECT_DIR$/importPostIDs.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../NoCompleto/SacaDatos.py" afterPath="$PROJECT_DIR$/../NoCompleto/SacaDatos.py" />
@@ -20,21 +20,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="importPostIDs.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="importPostIDs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/importPostIDs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+            <state relative-caret-position="42">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="importCommentsFromAllPosts.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="importCommentsFromAllPosts.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/importCommentsFromAllPosts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+            <state relative-caret-position="51">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,12 +48,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/importCommentsFromAllPosts.py" />
         <option value="$PROJECT_DIR$/importPostIDs.py" />
+        <option value="$PROJECT_DIR$/importCommentsFromAllPosts.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -166,7 +166,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07686676" sideWeight="0.49445325" order="0" side_tool="false" content_ui="combo" />
@@ -245,18 +245,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/importCommentsFromAllPosts.py">
+    <entry file="file://$PROJECT_DIR$/importPostIDs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        <state relative-caret-position="42">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/importPostIDs.py">
+    <entry file="file://$PROJECT_DIR$/importCommentsFromAllPosts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        <state relative-caret-position="51">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
