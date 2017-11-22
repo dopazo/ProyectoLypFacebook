@@ -4,14 +4,10 @@ import json
 import datetime
 
 # Su Token, por alguna razon no me deja usar uno de una cuenta temporal de prueba :c
-access_token = 'EAACEdEose0cBALotohafHTnp3qVjjLGpsnsG2Q5tGez0QZApdQkzZCecOPZBoUlC2LZBGwHjvxBRcFT3ScWVkS22Biz8eKZCENZBNzRMLpOkHX9daBPSH6iMbv68BnR3Ena0gRoXGNZAZAZBcZCxB10wuZCHM6mruwSXQ9CgtAYKjmgdEqtGBhShiZAPSwhaiJClKqcZD'
+access_token = 'EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD'
 
 # Facebook user id de la pagina de Guiller
 user_id = "1481491872064849"
-#553775568008058
-
-# post id de una publicacion de la pagina de piñera
-post_id = "1698259343559669"
 
 # conectar con la api graph de facebook
 graph = facebook.GraphAPI(access_token=access_token, version="2.10")
@@ -35,14 +31,18 @@ nombre = usuario['name']
 #FECHA DESDE LAS PRIMARIAS HASTA EL DIA DE LAS VOTACIONES
 # since=2017-07-02,until=2017-11-19
 # datetime.datetime(aa,mm,dd,hh,mm,ss).timestamp()
-sinceDate=int(datetime.datetime(2017,11,21,15,00,00).timestamp())
-untilDate=int(datetime.datetime(2017,11,21,16,00,00).timestamp())
+sinceDate=int(datetime.datetime(2017,11,18).timestamp())
+untilDate=int(datetime.datetime(2017,11,19).timestamp())
+# 20/11
+# 1511136000
+# 21/11
+# 1511222400
 
-prueba = graph.get_object(id=user_id, fields='posts{id,comments, message,since=sinceDate,until=untilDate}')
-#print('Encontrados {} posts'.format(len(prueba['posts']['data'])))
+'POR ALGUNA RAZON NO ESTA FUNCIONANDO EL SINCE/UNTIL D:'
+'if created_time<FechaEnUnix: break (?)'
 
-#print(prueba['posts']['data'][0]['comments']['data'])
-#print(prueba['posts']['data'][0])
+prueba = graph.get_object(id=user_id, fields='posts{id,comments, message,since=1511222400}')
+print('Encontrados {} posts'.format(len(prueba['posts']['data'])))
 
 allData = []
 vWhile=0
@@ -56,9 +56,11 @@ while True:
             allData.append(posts)
             print("vuelta del for")
             #Sacar mas comments de cada post
-            if 'paging' in posts['data']['comments'] and 'next' in posts['data']['comments']['paging']:
-                posts = requests.get(posts['data']['comments']['paging']['next']).json()
-                print('Encontrados {} comments'.format(len(posts['data']['comments'])))
+            for i in range(len(posts['data'])):
+                if 'paging' in posts['data'][i]['comments'] and 'next' in posts['data'][i]['comments']['paging']:
+                    print("quiero mas comments >:c")
+                    posts = requests.get(posts['data'][i]['comments']['paging']['next']).json()
+                    print('Encontrados {} comments'.format(len(posts['data'][i]['comments'])))
             vFor=vFor+1
         #Sacar mas posts
         if 'paging' in posts and 'next' in posts['paging']:
@@ -76,8 +78,9 @@ print("...vueltas del For: ")
 print(vFor)
 #print(allData)
 
-with open('data.json', 'w') as outfile:
-    json.dump(allData, outfile, indent=4)
+'VER LO DE UTF-8'
+with open('data.json', 'w', encoding='utf-8') as outfile:
+    json.dump(allData, outfile, indent=4,ensure_ascii=False)
 
 #with open('data.json', 'w') as outfile:
 #    json.dump(prueba, outfile, indent=4)
