@@ -114,15 +114,6 @@
                             "id": "1980697735477591_1980712042142827"
                         },
                         {
-                            "created_time": "2017-11-21T12:47:37+0000",
-                            "from": {
-                                "name": "Jose Luis Rosales Soto",
-                                "id": "10208702812906189"
-                            },
-                            "message": "En Chiguayante ya levantamos comando junto a la DC  Y el PRO ..... esperamos sumar a los jóvenes del FA \nFuerza !!! Futuro presidente",
-                            "id": "1980697735477591_1980701348810563"
-                        },
-                        {
                             "created_time": "2017-11-21T13:24:57+0000",
                             "from": {
                                 "name": "Veronica Oriana Pinto Ortega",
@@ -132,13 +123,13 @@
                             "id": "1980697735477591_1980713668809331"
                         },
                         {
-                            "created_time": "2017-11-21T12:40:50+0000",
+                            "created_time": "2017-11-21T12:47:37+0000",
                             "from": {
-                                "name": "Mario Fuentes",
-                                "id": "10203785359089050"
+                                "name": "Jose Luis Rosales Soto",
+                                "id": "10208702812906189"
                             },
-                            "message": "Recuerden que bachelet gano con 4 millones de votos !!! Vamos guillier se puede ganar a piraña",
-                            "id": "1980697735477591_1980699648810733"
+                            "message": "En Chiguayante ya levantamos comando junto a la DC  Y el PRO ..... esperamos sumar a los jóvenes del FA \nFuerza !!! Futuro presidente",
+                            "id": "1980697735477591_1980701348810563"
                         },
                         {
                             "created_time": "2017-11-21T13:59:10+0000",
@@ -148,6 +139,15 @@
                             },
                             "message": "Querida Michelle, voy a extrañar no verte como presidenta, hiciste mucho por Chile, muy agradecida de los cambios sociales, sobre todo en educación, simplemente gracias, saludos",
                             "id": "1980697735477591_1980726172141414"
+                        },
+                        {
+                            "created_time": "2017-11-21T12:40:50+0000",
+                            "from": {
+                                "name": "Mario Fuentes",
+                                "id": "10203785359089050"
+                            },
+                            "message": "Recuerden que bachelet gano con 4 millones de votos !!! Vamos guillier se puede ganar a piraña",
+                            "id": "1980697735477591_1980699648810733"
                         },
                         {
                             "created_time": "2017-11-21T13:37:20+0000",
@@ -168,15 +168,6 @@
                             "id": "1980697735477591_1980717538808944"
                         },
                         {
-                            "created_time": "2017-11-21T13:04:34+0000",
-                            "from": {
-                                "name": "Fabiola Inés Mondaca Fuentes",
-                                "id": "10204961528705496"
-                            },
-                            "message": "Guillier usted tiene el porte y la pinta de presidente, se ve muy bien en la moneda, VAMOS QUE SOMOS MAYORIA.",
-                            "id": "1980697735477591_1980706428810055"
-                        },
-                        {
                             "created_time": "2017-11-21T16:07:21+0000",
                             "from": {
                                 "name": "Raquel Tobar Ponce",
@@ -184,6 +175,15 @@
                             },
                             "message": "Me siento muy orgullosa de mi Presidenta Bachelet, gracias a usted  mis hijos estudian gratis en la U. de Chile, somos una familia de clase trabajadora y no de clase media. Mi futuro Presidente Guillier, espero que usted siga con el legado; más gratuidad, mejorar la salud y mejorar el sistema de AFP y viviendas para la clase trabajadora de este Pais, que no tienen un gran sueldo. 5 votos en mi hogar para ud.",
                             "id": "1980697735477591_1980771892136842"
+                        },
+                        {
+                            "created_time": "2017-11-21T13:04:34+0000",
+                            "from": {
+                                "name": "Fabiola Inés Mondaca Fuentes",
+                                "id": "10204961528705496"
+                            },
+                            "message": "Guillier usted tiene el porte y la pinta de presidente, se ve muy bien en la moneda, VAMOS QUE SOMOS MAYORIA.",
+                            "id": "1980697735477591_1980706428810055"
                         },
                         {
                             "created_time": "2017-11-21T13:13:23+0000",
@@ -233,10 +233,10 @@
                     ],
                     "paging": {
                         "cursors": {
-                            "before": "NDM4",
-                            "after": "NDE0"
+                            "before": "NDQw",
+                            "after": "NDE2"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1980697735477591/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=NDE0"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1980697735477591/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=NDE2"
                     }
                 },
                 "message": "Agradezco la invitación de Michelle Bachelet. El país habló fuerte y claro, por la demanda de renovación y cambio. Necesitamos profundizar el poder de la gente"
@@ -476,7 +476,7 @@
                             "before": "OTMZD",
                             "after": "NjkZD"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1980302538850444/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=NjkZD"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1980302538850444/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=NjkZD"
                     }
                 },
                 "message": "Acompáñame en Mucho Gusto! A un día del triunfo de la gente, #SomosMás los que queremos un Chile de progreso social"
@@ -716,7 +716,7 @@
                             "before": "MzY0",
                             "after": "MzM5"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1980075488873149/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=MzM5"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1980075488873149/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=MzM5"
                     }
                 },
                 "message": "Chile ha sido claro. El mundo progresista, ese que ha impulsado los cambios hacia un país más justo, es mayoría. Pero nuestros compatriotas también han dicho que quieren una política más ciudadana y nuevos liderazgos. Me comprometo con ese Chile. Seré #ElPresidenteDeLaGente  #SomosMás"
@@ -956,7 +956,7 @@
                             "before": "MjA0NwZDZD",
                             "after": "MjAyMwZDZD"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1980039255543439/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=MjAyMwZDZD"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1980039255543439/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=MjAyMwZDZD"
                     }
                 },
                 "message": "¡Hoy triunfó la gente! Hemos demostrado que somos muchos más los que queremos un país que siga en la senda del progreso social, en vez de un país que sólo se rige por frías cifras económicas. Todos juntos vamos a ganar en diciembre y derrotar a la derecha de Piñera y Kast. #SomosMás"
@@ -1196,7 +1196,7 @@
                             "before": "MzQx",
                             "after": "MzE3"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1979823452231686/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=MzE3"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1979823452231686/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=MzE3"
                     }
                 },
                 "message": "El poder de la gente lo demostramos hoy en las urnas. Celebremos la democracia y elijamos un Chile de progreso para todos y todas"
@@ -1436,7 +1436,7 @@
                             "before": "MTg1",
                             "after": "MTYx"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1979756635571701/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=MTYx"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1979756635571701/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=MTYx"
                     }
                 },
                 "message": "En la fiesta de la democracia, desayunamos junto a estudiantes beneficiados con la #Gratuidad en Antofagasta. Súmate y elige el Chile que soñamos #ElPresidenteDeLaGente"
@@ -1676,7 +1676,7 @@
                             "before": "MjU0",
                             "after": "MjMw"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1979539438926754/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=MjMw"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1979539438926754/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=MjMw"
                     }
                 },
                 "message": "Mañana todos y todas somos iguales. La belleza de la democracia, donde todos contamos por igual. ¡Mañana tu voto es poder! Un abrazo cariñoso #ElPresidenteDeLaGente"
@@ -1916,7 +1916,7 @@
                             "before": "MjA3",
                             "after": "MTgz"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978732989007399/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=MTgz"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978732989007399/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=MTgz"
                     }
                 },
                 "message": "Agradezco el apoyo de miles de chilenas y chilenos que nos acompañaron con esperanza en este cierre de campaña. Chile es grande y lo podemos hacer más grande juntos. Por eso quiero ser Presidente, el Presidente de la Gente.\nDiscurso Cierre de Campaña.\nPaseo Bulnes, 16 de noviembre de 2017."
@@ -2156,7 +2156,7 @@
                             "before": "MjQxOQZDZD",
                             "after": "MjM5NQZDZD"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978620695685295/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=MjM5NQZDZD"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978620695685295/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=MjM5NQZDZD"
                     }
                 },
                 "message": "Palabra de Presidente! Acompáñame en el Cierre de la Campaña de la Gente #YoVotoGuillier"
@@ -2396,7 +2396,7 @@
                             "before": "OTk3",
                             "after": "OTcz"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978593589021339/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=OTcz"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978593589021339/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=OTcz"
                     }
                 },
                 "message": "Continúa el Gran Cierre de Campaña junto a Los Tres #YoVotoGuillier"
@@ -2636,7 +2636,7 @@
                             "before": "Njk2",
                             "after": "Njcy"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978562565691108/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=Njcy"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978562565691108/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=Njcy"
                     }
                 },
                 "message": "Sol y Lluvia y Los Tres están con nosotros en el Gran Cierre de Campaña #YoVotoGuillier"
@@ -2876,7 +2876,7 @@
                             "before": "MzIw",
                             "after": "Mjk2"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978543855692979/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=Mjk2"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978543855692979/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=Mjk2"
                     }
                 },
                 "message": "Continuamos con la Gran Previa de la Gente a minutos de iniciar nuestro Cierre de Campaña. Acompáñanos en esta gran noche #YoVotoGuillier"
@@ -3116,7 +3116,7 @@
                             "before": "MjM4",
                             "after": "MjE0"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978535482360483/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=MjE0"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978535482360483/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=MjE0"
                     }
                 },
                 "message": "Gran Previa de la Gente a minutos de iniciar nuestro Cierre de Campaña. Acompáñanos en esta gran noche #YoVotoGuillier"
@@ -3356,7 +3356,7 @@
                             "before": "NDYz",
                             "after": "NDM5"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978523999028298/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=NDM5"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978523999028298/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=NDM5"
                     }
                 },
                 "message": "Gran Previa de la Gente a minutos de iniciar nuestro Cierre de Campaña. Acompáñanos en esta gran noche #YoVotoGuillier"
@@ -3596,7 +3596,7 @@
                             "before": "OTkZD",
                             "after": "NzMZD"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978420072372024/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=NzMZD"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978420072372024/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=NzMZD"
                     }
                 },
                 "message": "Los invito a este domingo defender con su voto los derechos sociales, la gratuidad en la educación y a crecer con empleo pero con seguridad social para todos y todas. Elijamos juntos un mejor futuro #YoVotoGuillier"
@@ -3836,7 +3836,7 @@
                             "before": "MTIz",
                             "after": "OTgZD"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978287565718608/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=OTgZD"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978287565718608/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=OTgZD"
                     }
                 },
                 "message": "HOY cerramos nuestra campaña rumbo a La Moneda. Con el apoyo de todos y todas, juntos ganamos este 19 de noviembre! Te esperamos!"
@@ -4076,7 +4076,7 @@
                             "before": "MzA2",
                             "after": "Mjc4"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978087779071920/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=Mjc4"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978087779071920/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=Mjc4"
                     }
                 },
                 "message": "Participa de estas últimas horas de campaña y envíanos un video selfie (horizontal) con tu nombre, comuna y el por qué votarás Guillier este domingo, al correo videosxguillier@gmail.com. Aquí un ejemplo #Vota4"
@@ -4316,7 +4316,7 @@
                             "before": "NTgx",
                             "after": "NTU3"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978052092408822/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=NTU3"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978052092408822/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=NTU3"
                     }
                 },
                 "message": "Cierre Campaña Viña del Mar Acompáñanos en la recta final hacia el triunfo ciudadano de este domingo 19 de noviembre #VotaGuillier"
@@ -4556,7 +4556,7 @@
                             "before": "NDQ3",
                             "after": "NDIz"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978043179076380/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=NDIz"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978043179076380/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=NDIz"
                     }
                 },
                 "message": "Cierre Campaña Viña del Mar Acompáñanos en la recta final hacia el triunfo ciudadano de este domingo 19 de noviembre #VotaGuillier"
@@ -4796,7 +4796,7 @@
                             "before": "MTA5MAZDZD",
                             "after": "MTA2NgZDZD"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978013819079316/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=MTA2NgZDZD"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1978013819079316/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=MTA2NgZDZD"
                     }
                 },
                 "message": "Cierre Campaña Viña del Mar Acompáñanos en la recta final hacia el triunfo ciudadano de este domingo 19 de noviembre #VotaGuillier"
@@ -5036,7 +5036,7 @@
                             "before": "NzE5",
                             "after": "Njk1"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1977946179086080/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=Njk1"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1977946179086080/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=Njk1"
                     }
                 },
                 "message": "Este domingo tendrás la posibilidad de elegir el país en el que quieres vivir, el país que quieres ayudar a construir para ti y para tu familia. Por eso te llamo a elegir una patria más justa y mejor para todos sus habitantes. Recuerda, Tu voto es tu Poder!\nComparte el último capítulo de nuestra Franja Presidencial #VotaGuillier #ElPresidenteDeLaGente, #Vota4"
@@ -5276,7 +5276,7 @@
                             "before": "MzY0",
                             "after": "MzM4"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1977486012465430/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=MzM4"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1977486012465430/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=MzM4"
                     }
                 },
                 "message": "Agradecido del apoyo de mi compañera de vida, mi esposa Cristina Farga, que nos invita a todas y a todos a votar este domingo 19 de noviembre #JuntosGanamos #Vota4"
@@ -5516,7 +5516,7 @@
                             "before": "OTIZD",
                             "after": "NjgZD"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1977389402475091/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=NjgZD"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1977389402475091/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=NjgZD"
                     }
                 },
                 "message": "La participación ciudadana, como base de nuestra democracia, la garantizaremos como un derecho, con consultas regionales y comunales vinculantes. Tu voto es Poder!\nComparte el capítulo 26 de nuestra Franja Presidencial. Vota Guillier #ElPresidenteDeLaGente, Vota #4ElVotoDeLaGente"
@@ -5756,7 +5756,7 @@
                             "before": "NDQw",
                             "after": "NDE2"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1977281145819250/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=NDE2"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1977281145819250/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=NDE2"
                     }
                 },
                 "message": "De todos los rincones de Chile y del mundo recibimos el apoyo de miles de chilenos y chilenas que este domingo con su voto defenderán los logros que hemos alcanzado y al país de crecimiento y derechos sociales para todos #VotaGuillier"
@@ -5996,7 +5996,7 @@
                             "before": "NzQ3",
                             "after": "NzIz"
                         },
-                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1977004379180260/comments?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&limit=25&after=NzIz"
+                        "next": "https://graph.facebook.com/v2.10/1481491872064849_1977004379180260/comments?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&limit=25&after=NzIz"
                     }
                 },
                 "message": "Defendamos los logros que miles de familias chilenas han conseguido luchando por años. Este domingo no da lo mismo quien gobierne. Por crecimiento con dignidad y derechos sociales #VotaGuillier #ElPresidenteDeLaGente"
@@ -6007,7 +6007,7 @@
                 "before": "Q2c4U1pXNTBYM0YxWlhKNVgzTjBiM0o1WDJsa0R5UXhORGd4TkRreE9EY3lNRFkwT0RRNU9qSTBOakk0TlRnNU1EZA3pPVE15TkRVek9ERVBER0ZA3YVY5emRHOXllVjlwWkE4aE1UUTRNVFE1TVRnM01qQTJORGcwT1Y4eE9UZA3dOamszTnpNMU5EYzNOVGt4RHdSMGFXMWxCbG9VSGVzQgZDZD",
                 "after": "Q2c4U1pXNTBYM0YxWlhKNVgzTjBiM0o1WDJsa0R5VXhORGd4TkRreE9EY3lNRFkwT0RRNU9pMDJOakE1TWpFeU9UVTJPREkwTlRjeE9URXlEd3hoY0dsZAmMzUnZAjbmxmYVdRUElURTBPREUwT1RFNE56SXdOalE0TkRsZAk1UazNOekF3TkRNM09URTRNREkyTUE4RWRHbHRaUVphQ2t2WEFRPT0ZD"
             },
-            "next": "https://graph.facebook.com/v2.10/1481491872064849/posts?access_token=EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD&fields=id%2Ccomments%2C+message%2Csince%3D1511222400&limit=25&after=Q2c4U1pXNTBYM0YxWlhKNVgzTjBiM0o1WDJsa0R5VXhORGd4TkRreE9EY3lNRFkwT0RRNU9pMDJOakE1TWpFeU9UVTJPREkwTlRjeE9URXlEd3hoY0dsZAmMzUnZAjbmxmYVdRUElURTBPREUwT1RFNE56SXdOalE0TkRsZAk1UazNOekF3TkRNM09URTRNREkyTUE4RWRHbHRaUVphQ2t2WEFRPT0ZD"
+            "next": "https://graph.facebook.com/v2.10/1481491872064849/posts?access_token=EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD&fields=id%2Ccomments%2C+message%2Csince%3D1511222400&limit=25&after=Q2c4U1pXNTBYM0YxWlhKNVgzTjBiM0o1WDJsa0R5VXhORGd4TkRreE9EY3lNRFkwT0RRNU9pMDJOakE1TWpFeU9UVTJPREkwTlRjeE9URXlEd3hoY0dsZAmMzUnZAjbmxmYVdRUElURTBPREUwT1RFNE56SXdOalE0TkRsZAk1UazNOekF3TkRNM09URTRNREkyTUE4RWRHbHRaUVphQ2t2WEFRPT0ZD"
         }
     }
 ]

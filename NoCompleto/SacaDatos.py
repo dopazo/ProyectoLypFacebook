@@ -4,7 +4,7 @@ import json
 import datetime
 
 # Su Token, por alguna razon no me deja usar uno de una cuenta temporal de prueba :c
-access_token = 'EAACEdEose0cBAK3iKbzSbdb30uPwWKMzTd90XkAmhyHzTGjEEu6CucZBEy8ZAzZAxobtSsN8x9NDLk7UKxh3GYOhAdiVxpeLtaxWeZAIHakR4cBq2yNURfzgsf89rgCItBskg6eXSwmkhz6oZCjHu0sZCREFYuk5Wn54myyWgS6AnWpPT5Awpfk8MXTZBw6pcQZD'
+access_token = 'EAACEdEose0cBAAeF7hZBpOet8KBKeyZB1RhPZAv1V9SZBmFBcT2nL8MDCZB7cI8QPaXdrjQE6imyljI6K6TREABzenqQlJWbeBbEJhpzW7Hs8vXJ8cH8fBSwKFZBb5QBs6uGEREf29qDVRUWMSJ9dLWqs1wZBXMrSzvaWSyDYLpwWXGfFLv9Bo2Q10LGzaavLcZD'
 
 # Facebook user id de la pagina de Guiller
 user_id = "1481491872064849"
