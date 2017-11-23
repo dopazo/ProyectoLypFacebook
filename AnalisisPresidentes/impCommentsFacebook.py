@@ -20,7 +20,7 @@ fileRead.close()
 #####################################
 
 graph_api_version = 'v2.9'
-access_token = 'EAACEdEose0cBAICBsLGmZBmmBEFot6eqXEgwJj60TdaIQXcWSZBZCqJS5rhQcocHCbY5I7PirT2oUqGkDptiiHbvYz2IF31PMVSvpOZBmZAn2jJyef1v5hhWSe30u7V67XqSOPfBDoWtNDRR119t0SlkLNaZAVScpKV5zrpEZBoLENHgNDe9LrZAiGTYkvKwFBcfmgKAOKXZCSQZDZD'
+access_token = 'EAACEdEose0cBAFtRKzdZCa2rLXNYlHdRRXd2mNAY4GtUWswPzVhL9WnDpnwRtArMcspjLSTRn3hC9aHciowVcHZCQ9IR2jJOZBh26p3E7fKv4hZBSu2u52v3ma5Bx67pgDX1EmnvYoG8KRA3lnZBZCu9HtWY5TyvBS7xSiQGPN7FzMug4ZBT34ba5lfvC2ERbQZD'
 
 # user id (id del presidente; CAMBIAR POR CADA PRESIDENTE)
 user_id = '10152723078'

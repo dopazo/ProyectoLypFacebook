@@ -33,14 +33,13 @@ for data_json in datas_json:
     with open(data_json, mode='r', encoding='utf-8', ) as file:
         lector = json.load(file)
         for x in range(0, len(lector)):
-            if len(lector[x])!=0:
-                comentarios.append(lector[x]['message'])
+            comentarios.append(lector[x]['message'])
     Id = LanguageDetector()
     # comentarios = [text for text in comentarios if Id.detect(text) == 'es']
     # for text in comentarios:
     #	print('{}: {}'.format(Id.detect(text), text))
-
-    lista = cm.predict(comentarios, params)
+    if len(comentarios)>0:
+        lista = cm.predict(comentarios, params)
     print(lista)
     comentariosPositivos = 0
     total = len(lista)
@@ -48,13 +47,12 @@ for data_json in datas_json:
     print(total)
     for index in range(0, len(lista)):
         comentariosPositivos += lista[index]
-        totalPositivos+=comentariosPositivos
+    totalPositivos+=comentariosPositivos
     porcentajePositivo = ((comentariosPositivos / total) * 100)
-    print(porcentajePositivo)
-    print("% aprobación")
+    print("{0:0.2f}% aprobación".format(porcentajePositivo))
     #comentariosNegativos = total - comentariosPositivos
     #porcentajeNegativo = ((comentariosNegativos / total) * 100)
     #print(porcentajeNegativo)
     #print("% de reprobación")
 totalPorcentajePositivo = ((totalPositivos / totalComentarios) * 100)
-print('El candidato Navarro tiene un porcentaje de aprobación de : {}%'.format(totalPorcentajePositivo))
+print('Las publicaciones del candidato Navarro tiene un porcentaje de aprobación de : {0:0.2f}%'.format(totalPorcentajePositivo))

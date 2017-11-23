@@ -4,7 +4,7 @@ import requests
 graph_api_version = 'v2.9'
 
 '''lo tuve que ir refreshing cada hora y no tuve problemas con facebook'''
-access_token = 'EAACEdEose0cBADwwPJoDgiJTc3XZCZCLBJN7damc8YXQzpCUZCS4sVxCDMwviCueZCBH1bM3ZA0l3lZB7iqc6vi1LZCY2DYUik0LYMWbrGX7KD2JYgBXkfcGZCTRTWEm998b4ZClSm6ZAUmrE8BNB3ZAxL4gfkYY1kdKNtTd5OZCuvLCUPTQ9o2OY8FHDYkxnPLowkcZD'
+access_token = 'EAACEdEose0cBAFtRKzdZCa2rLXNYlHdRRXd2mNAY4GtUWswPzVhL9WnDpnwRtArMcspjLSTRn3hC9aHciowVcHZCQ9IR2jJOZBh26p3E7fKv4hZBSu2u52v3ma5Bx67pgDX1EmnvYoG8KRA3lnZBZCu9HtWY5TyvBS7xSiQGPN7FzMug4ZBT34ba5lfvC2ERbQZD'
 
 # presidentes' Facebook user id
 user_id = '10152723078' #en este caso es de alejandro navarro
