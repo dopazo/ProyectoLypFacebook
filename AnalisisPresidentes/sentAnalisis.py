@@ -20,52 +20,55 @@ idsCandidatos=['1481491872064849','10152723078','137510593443379','3776718657758
 
 # todo: al final meter todo dentro del for de candidatos para que analice todo al ejecutarlo solo una vez
 posID=0
-'''for candidato in candidatos:
+aprobaciones= []
+for candidato in candidatos:
     idCandidato=idsCandidatos[posID]
-    fileRead = open('PostIdsDeTodosLosPresidentes/'+ candidato + '_postIds_desdeLasPrimarias.txt')
-    #... reemplazar donde diga "AlejandroNavarro" por "candidato" como variable,
-    #...reemplazar donde diga el id de Navarro por "idCandidato",
-    #...
-    #al final del código, poner posID+=1 para que sea consecuente con la lista candidatos
-    #
-'''
-fileRead = open('PostIdsDeTodosLosPresidentes/' +candidato+ '_postIds_desdeLasPrimarias.txt')
-presidente_txtList = fileRead.readlines()
-# saca el \n de todos los item de la lista
-presidenteSacarSlashNList = [i.replace('\n', '') for i in presidente_txtList]
-# saca el user_id_ de todos los item de la lista porque queremos una lista de solo los postIds
-presidenteSoloPostId_List = [i.replace(idCandidato+ '_', '') for i in presidenteSacarSlashNList]
-# sacar el ultimo termino de la lista porque por alguna razon es un item empty
-presidenteSoloPostId_List = presidenteSoloPostId_List[:-1]
+    fileRead = open('PostIdsDeTodosLosPresidentes/' + candidato + '_postIds_desdeLasPrimarias.txt')
+    presidente_txtList = fileRead.readlines()
+    # saca el \n de todos los item de la lista
+    presidenteSacarSlashNList = [i.replace('\n', '') for i in presidente_txtList]
+    # saca el user_id_ de todos los item de la lista porque queremos una lista de solo los postIds
+    presidenteSoloPostId_List = [i.replace(idCandidato + '_', '') for i in presidenteSacarSlashNList]
+    # sacar el ultimo termino de la lista porque por alguna razon es un item empty
+    presidenteSoloPostId_List = presidenteSoloPostId_List[:-1]
 
-datas_json = []
-for x in range(0,len(presidenteSoloPostId_List)):
-    datas_json.append('JsonCommentsDeLosPresidentes/' +candidato+ 'JSONcomments/' +candidato+ 'CommentsOfpost' + presidenteSoloPostId_List[x] + '.json')
-sys.stdout = io.TextIOWrapper(sys.stdout.detach(), sys.stdout.encoding, 'backslashreplace')
-totalPositivos=0
-totalComentarios=0
-for data_json in datas_json:
-    comentarios = []
-    with open(data_json, mode='r', encoding='utf-8', ) as file:
-        lector = json.load(file)
-        for x in range(0, len(lector)):
-            comentarios.append(lector[x]['message'])
-    Id = LanguageDetector()
-    # comentarios = [text for text in comentarios if Id.detect(text) == 'es']
-    # for text in comentarios:
-    #	print('{}: {}'.format(Id.detect(text), text))
-    if len(comentarios)>0:
-        lista = cm.predict(comentarios, params)
-    print(lista)
-    comentariosPositivos = 0
-    total = len(lista)
-    totalComentarios+=total
-    print(total)
-    for index in range(0, len(lista)):
-        comentariosPositivos += lista[index]
-    totalPositivos+=comentariosPositivos
-    porcentajePositivo = ((comentariosPositivos / total) * 100)
-    print("{0:0.2f}% aprobación".format(porcentajePositivo))
+    datas_json = []
+    for x in range(0, len(presidenteSoloPostId_List)):
+        datas_json.append('JsonCommentsDeLosPresidentes/' + candidato + 'JSONcomments/' + candidato + 'CommentsOfpost' +
+                          presidenteSoloPostId_List[x] + '.json')
+    sys.stdout = io.TextIOWrapper(sys.stdout.detach(), sys.stdout.encoding, 'backslashreplace')
+    totalPositivos = 0
+    totalComentarios = 0
+    for data_json in datas_json:
+        comentarios = []
+        with open(data_json, mode='r', encoding='utf-8', ) as file:
+            lector = json.load(file)
+            for x in range(0, len(lector)):
+                comentarios.append(lector[x]['message'])
+        Id = LanguageDetector()
+        # comentarios = [text for text in comentarios if Id.detect(text) == 'es']
+        # for text in comentarios:
+        #	print('{}: {}'.format(Id.detect(text), text))
+        if len(comentarios) > 0:
+            lista = cm.predict(comentarios, params)
+        print(lista)
+        comentariosPositivos = 0
+        total = len(lista)
+        totalComentarios += total
+        print(total)
+        for index in range(0, len(lista)):
+            comentariosPositivos += lista[index]
+        totalPositivos += comentariosPositivos
+        porcentajePositivo = ((comentariosPositivos / total) * 100)
+        print("{0:0.2f}% aprobación".format(porcentajePositivo))
 
-totalPorcentajePositivo = ((totalPositivos / totalComentarios) * 100)
-print('Las publicaciones del candidato Navarro tiene un porcentaje de aprobación de : {0:0.2f}%'.format(totalPorcentajePositivo))
+    totalPorcentajePositivo = ((totalPositivos / totalComentarios) * 100)
+    print('Las publicaciones del candidato ' +candidato+ ' tiene un porcentaje de aprobación de : {0:0.2f}%'.format(totalPorcentajePositivo))
+    #cambia al sgte idCandidato
+    aprobaciones.append(totalPorcentajePositivo)
+    posID+=1
+print()
+print("PORCENTAJE DE POSITIVIDAD DE LOS COMENTARIOS DE FACEBOOK DE LAS PUBLICACIONES DE LOS CANDIDATOS:")
+for i in range(len(candidatos)):
+    print(candidatos[i]+ ': {0:0.2f}%'.format(aprobaciones[i]))
+
