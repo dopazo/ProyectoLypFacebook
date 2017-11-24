@@ -2,7 +2,7 @@ import requests
 import json
 
 # LO SIGUIENTE CREA UNA LISTA DEL CONTENIDO QUE TIENE UN ARCHIVO TXT
-fileRead = open('AlejandoNavarro_postIds_desdeLasPrimarias.txt')
+fileRead = open('PostIdsDeTodosLosPresidentes/AlejandoNavarro_postIds_desdeLasPrimarias.txt')
 # crear una lista de todos los post ids, pero todos los items tienen \n al final
 presidente_txtList = fileRead.readlines()
 # saca el \n de todos los item de la lista
@@ -50,5 +50,5 @@ for id in presidenteSoloPostId_List:
             print('Encontrados {} comments'.format(len(data['data'])))
         else:
             break
-    with open('AlejandroNavarroCommentsOfPost' + id + '.json', 'w', encoding='utf-8') as outfile:
+    with open('JsonCommentsDeLosPresidentes/AlejandroNavarroJSONcomments/AlejandroNavarroCommentsOfPost' + id + '.json', 'w', encoding='utf-8') as outfile:
         json.dump(comments, outfile, indent=4, ensure_ascii=False)

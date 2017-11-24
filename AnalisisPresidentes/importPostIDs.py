@@ -39,6 +39,6 @@ while True:
         break
 
 # guardar los postIds a un archivo llamado NombreDePresidentePostIds.txt
-with open('AlejandoNavarro_postIds_desdeLasPrimarias.txt', 'w', encoding='utf-8') as f:
+with open('PostIdsDeTodosLosPresidentes/AlejandoNavarro_postIds_desdeLasPrimarias.txt', 'w', encoding='utf-8') as f:
     for id in postIds:
         f.write(id + '\n')

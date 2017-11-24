@@ -1,5 +1,6 @@
-from language_detector import LanguageDetector
 from corpus import CorpusHelper, CorpusModel
+
+from language_detector import LanguageDetector
 
 if __name__ == '__main__':
     ch = CorpusHelper(language='spanish')
