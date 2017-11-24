@@ -1,9 +1,7 @@
 import io
 import json
 import sys
-
 from corpus import CorpusHelper, CorpusModel
-
 from language_detector import LanguageDetector
 
 ch = CorpusHelper(language='spanish')
@@ -11,8 +9,6 @@ ch.load()
 cm = CorpusModel(corpus=ch)
 params = cm.fit()
 print('Our model has an AUC of {}'.format(cm.x_validation(params)))
-# el data_json hay que rellenarlo con un ciclo para que vaya cambiando los candidatos y el post
-# ocupando lo que había hecho la popi, les cambié los nombres a esto para que sea más fácil jeje
 
 candidatos=['AlejandroGuillier','AlejandroNavarro','BeatrizSanchez','CarolinaGoic','EduardoArtes','JoseAntonioKast','MarcoEnriquez-Ominami','SebastianPiñera']
 #consecuente con el orden de "candidatos"
@@ -21,7 +17,11 @@ idsCandidatos=['1481491872064849','10152723078','137510593443379','3776718657758
 # todo: al final meter todo dentro del for de candidatos para que analice todo al ejecutarlo solo una vez
 posID=0
 aprobaciones= []
+candidatosPubliNoVacias= []
+candidatosPubliVacias= []
 for candidato in candidatos:
+    publiVacias=0
+    publiNoVacias=0
     idCandidato=idsCandidatos[posID]
     fileRead = open('PostIdsDeTodosLosPresidentes/' + candidato + '_postIds_desdeLasPrimarias.txt')
     presidente_txtList = fileRead.readlines()
@@ -51,6 +51,10 @@ for candidato in candidatos:
         #	print('{}: {}'.format(Id.detect(text), text))
         if len(comentarios) > 0:
             lista = cm.predict(comentarios, params)
+            publiNoVacias+=1
+        else:
+            publiVacias+=1
+            #todo with open(postIdsVacios )
         print(lista)
         comentariosPositivos = 0
         total = len(lista)
@@ -63,12 +67,17 @@ for candidato in candidatos:
         print("{0:0.2f}% aprobación".format(porcentajePositivo))
 
     totalPorcentajePositivo = ((totalPositivos / totalComentarios) * 100)
-    print('Las publicaciones del candidato ' +candidato+ ' tiene un porcentaje de aprobación de : {0:0.2f}%'.format(totalPorcentajePositivo))
+    print('Las publicaciones del candidato ' +candidato+ ' tiene un porcentaje de aprobación de: {0:0.2f}%'.format(totalPorcentajePositivo))
     #cambia al sgte idCandidato
     aprobaciones.append(totalPorcentajePositivo)
+    candidatosPubliNoVacias.append(publiNoVacias)
+    candidatosPubliVacias.append(publiVacias)
     posID+=1
 print()
-print("PORCENTAJE DE POSITIVIDAD DE LOS COMENTARIOS DE FACEBOOK DE LAS PUBLICACIONES DE LOS CANDIDATOS:")
+print("PORCENTAJE DE POSITIVIDAD DE LOS COMENTARIOS DE FACEBOOK DE LAS PUBLICACIONES DE LOS CANDIDATOS:\n")
 for i in range(len(candidatos)):
     print(candidatos[i]+ ': {0:0.2f}%'.format(aprobaciones[i]))
+    print('  Publicaciones con comentarios: {}'.format(candidatosPubliNoVacias[i]))
+    print('  Publicaciones vacias: {}'.format(candidatosPubliVacias[i]))
+    print()
 
