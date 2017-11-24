@@ -29,18 +29,18 @@ posID=0
     #al final del código, poner posID+=1 para que sea consecuente con la lista candidatos
     #
 '''
-fileRead = open('PostIdsDeTodosLosPresidentes/AlejandoNavarro_postIds_desdeLasPrimarias.txt')
+fileRead = open('PostIdsDeTodosLosPresidentes/' +candidato+ '_postIds_desdeLasPrimarias.txt')
 presidente_txtList = fileRead.readlines()
 # saca el \n de todos los item de la lista
 presidenteSacarSlashNList = [i.replace('\n', '') for i in presidente_txtList]
 # saca el user_id_ de todos los item de la lista porque queremos una lista de solo los postIds
-presidenteSoloPostId_List = [i.replace('10152723078_', '') for i in presidenteSacarSlashNList]
+presidenteSoloPostId_List = [i.replace(idCandidato+ '_', '') for i in presidenteSacarSlashNList]
 # sacar el ultimo termino de la lista porque por alguna razon es un item empty
 presidenteSoloPostId_List = presidenteSoloPostId_List[:-1]
 
 datas_json = []
 for x in range(0,len(presidenteSoloPostId_List)):
-    datas_json.append('JsonCommentsDeLosPresidentes/AlejandroNavarroJSONcomments/AlejandroNavarroCommentsOfpost' + presidenteSoloPostId_List[x] + '.json')
+    datas_json.append('JsonCommentsDeLosPresidentes/' +candidato+ 'JSONcomments/' +candidato+ 'CommentsOfpost' + presidenteSoloPostId_List[x] + '.json')
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), sys.stdout.encoding, 'backslashreplace')
 totalPositivos=0
 totalComentarios=0
@@ -66,9 +66,6 @@ for data_json in datas_json:
     totalPositivos+=comentariosPositivos
     porcentajePositivo = ((comentariosPositivos / total) * 100)
     print("{0:0.2f}% aprobación".format(porcentajePositivo))
-    #comentariosNegativos = total - comentariosPositivos
-    #porcentajeNegativo = ((comentariosNegativos / total) * 100)
-    #print(porcentajeNegativo)
-    #print("% de reprobación")
+
 totalPorcentajePositivo = ((totalPositivos / totalComentarios) * 100)
 print('Las publicaciones del candidato Navarro tiene un porcentaje de aprobación de : {0:0.2f}%'.format(totalPorcentajePositivo))
